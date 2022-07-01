@@ -1,0 +1,11 @@
+.card-text{
+    @extend %estiloParrafo
+}
+
+.card-title{
+    @extend %estiloTitulo   
+}
+
+.ul{
+    @include lista(black, white)
+}

@@ -1,0 +1,14 @@
+.ul {
+  @in;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}/*# sourceMappingURL=main.css.map */

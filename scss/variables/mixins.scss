@@ -1,0 +1,5 @@
+@mixin lista($colorFondo, $colorLetra) {
+    background-color: $colorFondo;
+    color: $colorLetra;
+    
+}
