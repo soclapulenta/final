@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="pacientes, gestacion, actividad fisica, sin cargo, bebe, baby fitnes" >
-    <meta name="description" content="este es un espacio donde el paciente podra evacuar todas sus dudas de rehablitacion del suelo pelvico">
+    <meta name="keywords" content="pacientes, gestacion, actividad fisica, sin cargo, bebe, baby fitnes">
+    <meta name="description"
+        content="este es un espacio donde el paciente podra evacuar todas sus dudas de rehablitacion del suelo pelvico">
     <title>Lic Soledad Pellene - Pacientes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../scss/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <s" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
@@ -17,36 +18,47 @@
 </head>
 
 <body>
-    <div class="container bg-light">
-        <nav class="navbar bg-light rounded-4">
-            <div class="container-fluid rounded-4" style="background-image: linear-gradient(265deg, #d4c1ba, #fffcf3);">
-                <a class="navbar-brand" href="#">
-                    <img src="../img/logo.JPG" alt="" width="130" class="d-inline-block align-text-top ">
-                    Conexion Pelvica</a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" style="color: #fffcf3;" aria-current="page"
-                            href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: #fffcf3;" href="../pages/servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: #fffcf3 ;" href="../pages/pacientes.html">Pacientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: #fffcf3 ;" href="../pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+    <div class="container">
+        <nav class="navbar bg-light fixed-top navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./pacientes.html"><img class="img" src="../img/logo.JPG" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Conexion Pélvica</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" style="color: #a47132;" aria-current="page"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #a47132;" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #a47132 ;" href="./pacientes.html">Pacientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #a47132 ;" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
-        </nav>
+        </nav><br><br><br><br>
         <div class="container bg-light">
             <!-- Content here -->
             <img src="../img/Captura5.JPG"
                 class="img-fluid rounded-4  animate__animated animate__slideInRight animate__delay-1s" alt="portada">
         </div>
         <br>
-
         <div class="row">
             <div class="col-sm-3">
                 <div class="card">
@@ -113,10 +125,10 @@
 
         <br>
         <div class="card">
-            <div class="card-body rounded-4 animate__animated animate__slideInUp animate__delay-4s"
+            <div class="card-body rounded-4 animate__animated animate__slideInUp animate__delay-2s"
                 style="background-image: linear-gradient(265deg, #d68983, #fffcf3);">
                 <h5 class="card-title">Contactate Conmigo</h5>
-                <ul>
+                <ul class="ul">
                     <li><i class="fa-brands fa-whatsapp-square"></i></li>
                     <li><i class="fa-solid fa-envelope-open"> cpelvica@gmail.com</i></li>
                     <li><i class="fa-solid fa-phone-flip"> 0351-4750111</i></li>
@@ -126,6 +138,14 @@
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

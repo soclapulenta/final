@@ -6,6 +6,10 @@
     @extend %estiloTitulo   
 }
 
-.ul{
-    @include lista(black, white)
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img{
+    @extend %estiloImg
 }

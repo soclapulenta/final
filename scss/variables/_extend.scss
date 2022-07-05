@@ -4,7 +4,16 @@
     font-size: 15px;
 }
 
-%estiloTitulo{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+%estiloTitulo{ text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a47132;
+  
+}
+
+%estiloUl{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+%estiloImg{
+    max-width: 150px;
+    margin-left: 2rem;
 }

@@ -1,5 +1,5 @@
-.ul {
-  @in;
+.nav-item {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .card-text {
@@ -10,5 +10,11 @@
 
 .card-title {
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #a47132;
+}
+
+.img {
+  max-width: 150px;
+  margin-left: 2rem;
 }/*# sourceMappingURL=main.css.map */
